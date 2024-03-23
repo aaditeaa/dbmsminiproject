@@ -234,7 +234,7 @@ CREATE TABLE `sales_list` (
 --
 
 INSERT INTO `sales_list` (`id`, `sales_code`, `client`, `amount`, `remarks`, `stock_ids`, `date_created`, `date_updated`) VALUES
-(1, 'SALE-0001', 'John Smith', 7625, 'Sample Remarks', '24,25,26', '2021-11-03 14:03:30', '2021-11-03 14:08:27');
+(1, 'SALE-0001', 'Julia P Laiju', 7625, 'Sample Remarks', '24,25,26', '2021-11-03 14:03:30', '2021-11-03 14:08:27');
 
 -- --------------------------------------------------------
 
@@ -346,10 +346,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `firstname`, `middlename`, `lastname`, `username`, `password`, `avatar`, `last_login`, `type`, `date_added`, `date_updated`) VALUES
-(1, 'Adminstrator', NULL, 'Admin', 'admin', '0192023a7bbd73250516f069df18b500', 'uploads/avatar-1.png?v=1635556826', NULL, 1, '2021-01-20 14:02:37', '2021-10-30 09:20:26'),
-(10, 'John', NULL, 'Smith', 'jsmith', '39ce7e2a8573b41ce73b5ba41617f8f7', 'uploads/avatar-10.png?v=1635920488', NULL, 2, '2021-11-03 14:21:28', '2021-11-03 14:21:28'),
-(11, 'Claire', NULL, 'Blake', 'cblake', 'cd74fae0a3adf459f73bbf187607ccea', 'uploads/avatar-11.png?v=1635920566', NULL, 1, '2021-11-03 14:22:46', '2021-11-03 14:22:46');
-
+(1, 'Aditi ', NULL, 'Narayan- Admin', 'admin', '0192023a7bbd73250516f069df18b500', 'uploads/avatar-1.png?v=1635556826', NULL, 1, '2023-01-20 14:02:37', '2021-10-30 09:20:26'),
+(10, 'Julia ', 'P','Laiju', 'staff02', '39ce7e2a8573b41ce73b5ba41617f8f7', 'uploads/avatar-10.png?v=1635920488', NULL, 2, '2023-01-03 14:21:28', '2021-11-03 14:21:28'),
+(11, 'Cemal ', NULL, 'Fathima', 'staff01', 'cd74fae0a3adf459f73bbf187607ccea', 'uploads/avatar-11.png?v=1635920566', NULL, 2, '2023-02-03 14:22:46', '2021-11-03 14:22:46'),
+(12,'Ayushi',NULL,'Negi','staff03','cd74fae0a3adf459f73bbf187607ccea','uploads/avatar-10.png?v=1635920488', NULL, 2, '2023-01-03 14:21:28', '2021-11-03 14:21:28');
 -- --------------------------------------------------------
 
 --
